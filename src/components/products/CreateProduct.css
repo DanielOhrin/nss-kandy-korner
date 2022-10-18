@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%
+}
+
+form > label, #save-btn {
+    margin-top: 1rem;
+}
+
+#save-btn {
+    width: fit-content;
+    align-self: flex-start;
+}

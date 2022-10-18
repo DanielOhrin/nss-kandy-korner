@@ -1,0 +1,46 @@
+#customerDetails {
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 4px 2.75px gray;
+    text-shadow: 0.2px 0.2px black;
+    width: fit-content;
+}
+
+#customerDetails > header {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#update-loyalty {
+    font-size: smaller;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 75%;
+}
+
+#update-loyalty:hover {
+    animation: button-pop 0.25s forwards
+}
+
+@keyframes button-pop {
+    100% {
+        background-color: rgba(231, 231, 231, 0.808)
+    }
+}
+
+#parent {
+    display: flex;
+    flex-flow: column nowrap;
+    width: fit-content;
+    align-items: center;
+}
+
+input[name="loyalty"] {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
